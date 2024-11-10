@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+
+/* Hero Button */
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #bd2a2e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    width: 100px;
+    height: 30px;
+    margin: 30px auto;
+    padding-top: 20px;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* VIDEO Hero */
+
+#hero {
+    padding-top: 100px;
+    position: relative;
+    height: 500px; /* Adjust as needed */
+    overflow: hidden; /* Ensure the video stays within bounds */
+}
+
+#hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the whole area */
+    z-index: -1; /* Place the video behind the text and button */
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+
+.hero-content h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+.hero-content p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+
+
+/*ABOUT Hero*/
+
+#abouthero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/abouthero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#abouthero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#abouthero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+
+/*TESTIMONIAL Hero*/
+
+#testimonialhero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/testimonialhero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#testimonialhero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#testimonialhero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+/*PORTFOLIO Hero*/
+
+#portfoliohero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/portfoliohero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#portfoliohero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#portfoliohero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+
+/*CONTACT Hero*/
+
+#contacthero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/contacthero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#contacthero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#contacthero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+/*FORMS Hero*/
+
+#formshero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/formshero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#formshero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#formshero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}

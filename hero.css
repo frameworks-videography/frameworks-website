@@ -222,3 +222,72 @@
     font-size: 24px; /* Adjust font size for better readability */
     margin-bottom: 30px; /* Increase spacing between subtitle and button */
 }
+
+/*PRIVACY Hero*/
+
+#privacyhero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/privacyhero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#privacyhero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#privacyhero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+/*TERMS Hero*/
+
+#termshero {
+    padding-top: 80px;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+    height: 500px; /* Reduce the height of the hero section */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the content */
+    background-image: url('files/photos/termshero.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center center; /* Center the background image */
+    max-width: 100%; /* Limit the maximum width of the background image */
+    max-height: 500px; /* Limit the maximum height of the background image */
+}
+
+#termshero h2 {
+    font-size: 48px; /* Increase the font size of the main heading */
+    margin-bottom: 20px; /* Add margin to separate from the subtitle */
+    line-height: 1.4; /* Increase line-height for better spacing */
+}
+
+#termshero p {
+    color: #fff; /* Adjust text color to white */
+    font-size: 24px; /* Adjust font size for better readability */
+    margin-bottom: 30px; /* Increase spacing between subtitle and button */
+}
+
+@media print{
+	
+	#hero, #abouthero, #testimonialhero, #portfoliohero, #contacthero, #formshero, #privacyhero, #termshero {
+		display: none;
+	}
+}

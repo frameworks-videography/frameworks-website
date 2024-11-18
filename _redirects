@@ -8,7 +8,7 @@ http://support.frameworks.video/* https://frameworksvideography.atlassian.net/se
 https://support.frameworks.video/* https://frameworksvideography.atlassian.net/servicedesk/:splat 301!
 
 http://portal.frameworksvideography.com/* https://invoice.zoho.com/portal/frameworksvideography1/:splat 301!
-https://portal.frameworksvideography.com/* https://invoice.zoho.com/portal/frameworksvideography1/:splat 301!
+https://billing.stripe.com/p/login/6oEg2y3Qy5EJd9u3cc/* https://invoice.zoho.com/portal/frameworksvideography1/:splat 301!
 http://live.frameworksvideography.com/* https://frameworks.ticketleap.com/:splat 301!
 https://live.frameworksvideography.com/* https://frameworks.ticketleap.com/:splat 301!
 http://youtube.frameworksvideography.com/* https://www.youtube.com/channel/UCRNzHZasqH1TYKLkUFT04Qg/:splat 301!
